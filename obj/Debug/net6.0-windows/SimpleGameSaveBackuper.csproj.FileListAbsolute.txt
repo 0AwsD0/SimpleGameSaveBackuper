@@ -1,0 +1,17 @@
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\bin\Debug\net6.0-windows\SimpleGameSaveBackuper.exe
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\bin\Debug\net6.0-windows\SimpleGameSaveBackuper.deps.json
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\bin\Debug\net6.0-windows\SimpleGameSaveBackuper.runtimeconfig.json
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\bin\Debug\net6.0-windows\SimpleGameSaveBackuper.dll
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\bin\Debug\net6.0-windows\SimpleGameSaveBackuper.pdb
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\obj\Debug\net6.0-windows\SimpleGameSaveBackuper.Form1.resources
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\obj\Debug\net6.0-windows\SimpleGameSaveBackuper.csproj.GenerateResource.cache
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\obj\Debug\net6.0-windows\SimpleGameSaveBackuper.GeneratedMSBuildEditorConfig.editorconfig
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\obj\Debug\net6.0-windows\SimpleGameSaveBackuper.AssemblyInfoInputs.cache
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\obj\Debug\net6.0-windows\SimpleGameSaveBackuper.AssemblyInfo.cs
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\obj\Debug\net6.0-windows\SimpleGameSaveBackuper.csproj.CoreCompileInputs.cache
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\obj\Debug\net6.0-windows\SimpleGameSaveBackuper.dll
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\obj\Debug\net6.0-windows\refint\SimpleGameSaveBackuper.dll
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\obj\Debug\net6.0-windows\SimpleGameSaveBackuper.pdb
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\obj\Debug\net6.0-windows\SimpleGameSaveBackuper.genruntimeconfig.cache
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\obj\Debug\net6.0-windows\ref\SimpleGameSaveBackuper.dll
+M:\Projekty\PROJEKTY 2022\C#\TESTYitp\1\SimpleGameSaveBackuper\bin\Debug\net6.0-windows\SimpleGameSaveBackuper.dll.config

@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SimpleGameSaveBackuper" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="source_cfg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Source</Value>
+    </Setting>
+    <Setting Name="destination_cfg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Destination</Value>
+    </Setting>
+    <Setting Name="interval_cfg" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
