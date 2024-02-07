@@ -67,6 +67,7 @@ namespace SimpleGameSaveBackuper
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            label5.Text = "";
             CopyFilesRecursively(source, destination + @"\" + folder_slice(source) + " - " + DateTime.Now.ToString().Replace(':', '_'));
             label4.Text = "Last backup: " + DateTime.Now.ToString();
         }
@@ -77,24 +78,35 @@ namespace SimpleGameSaveBackuper
             string[] folder = path.Split('\\');
             return folder[folder.Length - 1];
         }
-        //Stack Overflow function below
-        private static void CopyFilesRecursively(string sourcePath, string targetPath)
+        //Stack Overflow function below + try catch for error
+        private void CopyFilesRecursively(string sourcePath, string targetPath)
         {
-            //Now Create all of the directories
-            foreach (string dirPath in Directory.GetDirectories(sourcePath, "*", SearchOption.AllDirectories))
+            try
             {
-                Directory.CreateDirectory(dirPath.Replace(sourcePath, targetPath));
-            }
+                //Now Create all of the directories
+                foreach (string dirPath in Directory.GetDirectories(sourcePath, "*", SearchOption.AllDirectories))
+                {
+                    Directory.CreateDirectory(dirPath.Replace(sourcePath, targetPath));
+                }
 
-            //Copy all the files & Replaces any files with the same name
-            foreach (string newPath in Directory.GetFiles(sourcePath, "*.*", SearchOption.AllDirectories))
+                //Copy all the files & Replaces any files with the same name
+                foreach (string newPath in Directory.GetFiles(sourcePath, "*.*", SearchOption.AllDirectories))
+                {
+                    File.Copy(newPath, newPath.Replace(sourcePath, targetPath), true);
+                }
+            }
+            catch (Exception ex)
             {
-                File.Copy(newPath, newPath.Replace(sourcePath, targetPath), true);
+                label5.Text = "Exception - check 'Exception_date_time.txt' for more informations. | Usually the file/s that program tried to copy got deleted/renamed during backup or the PATH is incorrect.";
+                StreamWriter File = new StreamWriter("Exception_" + DateTime.Now.ToString("yyyyMMdd_hhmmss") + ".txt");
+                File.WriteLine(ex.ToString());
+                File.Close();
             }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
+            label5.Text = "";
             CopyFilesRecursively(source, destination + @"\" + folder_slice(source) + " - " + DateTime.Now.ToString().Replace(':', '_'));
             label4.Text = "Last backup (MANUAL): " + DateTime.Now.ToString();
         }

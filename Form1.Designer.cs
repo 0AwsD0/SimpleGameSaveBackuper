@@ -42,6 +42,7 @@
             button3 = new Button();
             timer1 = new System.Windows.Forms.Timer(components);
             button4 = new Button();
+            label5 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -157,11 +158,22 @@
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.ForeColor = Color.RebeccaPurple;
+            label5.Location = new Point(398, 179);
+            label5.Name = "label5";
+            label5.Size = new Size(0, 15);
+            label5.TabIndex = 9;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(779, 203);
+            Controls.Add(label5);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -195,5 +207,6 @@
         private Button button3;
         private System.Windows.Forms.Timer timer1;
         private Button button4;
+        private Label label5;
     }
 }
